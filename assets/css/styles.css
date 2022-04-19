@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+header .logo {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+}
+header .menu {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header .menu-line {
+    height: 3px;
+    background-color: #333;
+}
+
+
+/* banner */
+.container {
+    display: flex;
+    height: 100vh;
+}
+.container .leftside {
+    flex: 1;
+    background-color: #11085C;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+.container .rightside {
+    flex: 1;
+    background-image: url('/assets/images/Img1.jpeg');
+    background-size: cover;
+    background-position: center top;
+}
+.container .description {
+    color: #FFF;
+}
+.container .description .profession {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container .description .name {
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.container .description .buttons a {
+    display: inline-block;
+    background-color: #fff;
+    color: #3B576D;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 6px rgb(31, 31, 31);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.container .description .buttons a.light {
+    color: #FFF;
+    background-color: #6658E1;
+}
+.container .description .buttons a:hover {
+    opacity: 0.8;
+}
+
+
+/* rodapé */
+footer {
+    font-size: 13px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    color: #FFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6658E1;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
