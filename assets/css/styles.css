@@ -112,3 +112,30 @@ footer a {
 footer a:hover {
     opacity: 0.8;
 }
+
+
+/* responsividade */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .container .description .name {
+        font-weight: bold;
+        font-size: 60px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .container .description .profession {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .container .description .name {
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .container .description .buttons a {
+        margin-bottom: 10px;
+    }
+}
